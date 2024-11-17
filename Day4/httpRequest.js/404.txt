@@ -1,0 +1,43 @@
+// what is the http responses
+ HTTP status codes are three-digit numbers sent by servers in response to a client's request. They provide information about the status of the request and help the client understand whether the request was successful, if there were any issues, or if additional actions are required.
+Categories of HTTP Status Codes
+1xx Informational: Request received, continuing process.
+100 Continue: The server has received the request headers, and the client should proceed to send the request body.
+101 Switching Protocols: The requester has asked the server to switch protocols, and the server has agreed to do so.
+
+(it means like  the request is th econtoneu process)
+
+
+
+
+2xx Success: The action was successfully received, understood, and accepted.
+200 OK: The request was successful.
+201 Created: The request was successful and a new resource was created as a result.
+204 No Content: The server successfully processed the request and is not returning any content.
+
+
+this means  the request was scessfull
+
+ 3xx Redirection: Further action needs to be taken in order to complete the request.301 Moved Permanently: The requested resource has been permanently moved to a new URL.
+302 Found: The requested resource is temporarily located at a different URL.304 Not Modified: The resource has not been modified since the version specified by the request headers.
+
+
+it means user can do rong things like for example it fill the wrong password in the email (form)
+
+ 4xx Client Error: The request contains bad syntax or cannot be fulfilled.
+400 Bad Request: The server could not understand the request due to invalid syntax.
+401 Unauthorized: The client must authenticate itself to get the requested response.
+403 Forbidden: The client does not have access rights to the content.
+404 Not Found: The server can not find the requested resource.
+
+it means the server is not found 
+
+
+
+5xx Server Error: The server failed to fulfill a valid request.
+ 500 Internal Server Error: The server has encountered a situation it doesn't know how to handle.
+502 Bad Gateway: The server, while acting as a gateway or proxy, received an invalid response from the upstream server.
+503 Service Unavailable: The server is not ready to handle the request, often due to being overloaded or down for maintenance.
+
+
+it means there is the some isssue in the srever side

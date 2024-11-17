@@ -1,0 +1,21 @@
+mongodb is  No-sQL  based database
+
+strong support for Aggregation Pipes
+
+work on BSON formate
+
+Best for node Application
+
+
+
+how to we used mongo \
+
+1.Install Mongoose
+
+2.Connect to MongoDB
+
+3.Create a Schema 
+
+5: Model
+
+6.CRUD Operations
