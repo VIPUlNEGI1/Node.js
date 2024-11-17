@@ -1,0 +1,17 @@
+what is we are designing :- we are working in rest full api
+
+its a json based api
+
+
+these tasks 
+GET/ user - list all user
+
+
+GET/users/1 - get the user with ID 1
+GET/users/2 - Get the user with ID 2
+
+POST/ users - create new user
+
+PATCH/users/1 - Edit the user with ID 1
+
+DELETE/user/1 - Delete the User with ID 1
